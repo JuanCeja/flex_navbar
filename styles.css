@@ -1,0 +1,50 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(71, 66, 66);
+    border-radius: 7px;
+    padding: 0 10px;
+}
+
+.nav-title {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: white;
+    margin-left: 10px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+
+li > a {
+    
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+li > button {
+    background-color: cyan;
+    padding: 3px 10px;
+    box-shadow: 0 0 5px 4px black;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    font-weight: bold;
+    border: none;
+}
